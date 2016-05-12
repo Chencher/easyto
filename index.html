@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+        <meta http-equiv="Content-Type" content="text/html" />
+        <meta name="keywords" content="easyto.com" />
+        <meta name="description" content="easyto" />
+        <title>easyto</title>
+        <link href="css/easyto3.css" rel="stylesheet" media="screen">
+        <link rel="Shortcut Icon" href="img/index/title_logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <nav class="header">
+            <div class="logo">
+                 <a href="http://www.easyto.com">
+                    <img src="img/index/logo.png" style="width:100px; ">
+               </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html" class="navbar_active">首页</a></li>
+                    <li><a href="http://ask.easyto.com">问答社区</a></li>
+                    <li><a href="japan.html">服务者</a></li>
+                </ul>
+                </div>
+              </nav>
+<div id="banner_tabs" class="flexslider">
+	<ul class="slides">
+		<li>
+			<a title="" target="_blank" href="#">
+				<img width="100%" alt="" style="background:url(img/index/banner01.jpg) center no-repeat ; background-size:cover;">
+			</a>
+		</li>
+		<li>
+			<a title="" href="#">
+				<img width="100%" alt="" style="background: url(img/index/banner02.jpg)center no-repeat; background-size:cover;">
+			</a>
+		</li>
+		<li>
+			<a title="" href="#">
+				<img width="100%" alt="" style="background:url(img/index/banner03.jpg) center no-repeat; background-size:cover;">
+			</a>
+		</li>
+	</ul>
+	<div class="flex-direction-nav">
+		<div><a class="flex-prev" href="javascript:;">Previous</a></div>
+		<div><a class="flex-next" href="javascript:;">Next</a></div>
+	</div>
+	<ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+		<li class="active"><a></a></li>
+		<li><a></a></li>
+		<li><a></a></li>
+	</ol>
+</div>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/slider.js"></script>
+<script type="text/javascript">
+$(function() {
+	var bannerSlider = new Slider($('#banner_tabs'), {
+		time: 5000,
+		delay: 400,
+		event: 'hover',
+		auto: true,
+		mode: 'fade',
+		controller: $('#bannerCtrl'),
+		activeControllerCls: 'active'
+	});
+	$('#banner_tabs .flex-prev').click(function() {
+		bannerSlider.prev()
+	});
+	$('#banner_tabs .flex-next').click(function() {
+		bannerSlider.next()
+	});
+})
+</script>
+        <div class="content">
+          <div class="circle1">
+            <span class="circle_w"> 简单</span>
+            <span class="circle_w1">境外出行遇到困难<br>
+            不懂就来问</span>
+          </div>
+          
+          <div class="circle2">
+              <span class="circle_w">可靠</span>
+              <span class="circle_w1">久居海外的华人<br>为你排忧解难</span>
+
+          </div>
+          <div class="circle3">
+              <span class="circle_w">高效</span>
+              <span class="circle_w1">海外达人秒回问题<br>
+              出行事半功倍</span>
+          </div>
+        </div>
+     <div class="joinin">
+       <div class="join_img">
+        <img src="img/index/bbs-img.jpg" style="width:70%;">
+        </div>
+       <div>
+       <a href="http://ask.easyto.com" class="join">进入社区</a>
+        </div>
+     </div>
+      <div class="model_1">
+         <div class="view3">
+          <div class="grid">
+        <div class="cs-style-3">
+          <figure>
+            <div>
+            <img src="img/australia/a-ren05.png" class="img">
+              <span class="place_name">田逸</span>
+            </div> 
+              <figcaption>
+                 <span class="big">悉尼版主</span>
+                    <span class="small">现居地：澳大利亚 悉尼	居住时长：2年</span>
+<span class="small">我是一名悉尼大学摄影系在读的研二学生，热爱摄影和旅行，如果你来悉尼，可以来找我，我用专业的摄影技能，让你的旅途变得更精彩。</span>
+                    <div class="lable">
+                    <span class="lable_shoot">爬山</span>&nbsp;&nbsp;
+                    <span class="lable_travel">游泳</span>&nbsp;&nbsp;
+                    <span class="lable_execerise">骑车</span>&nbsp;&nbsp;
+                    </div>
+              </figcaption>
+          </figure>
+        </div>
+        </div>
+        </div>
+        
+    <div class="view4">
+    <img src="img/index/s-ren02.jpg" class="img">
+    <span class="place_name">东京</span>
+    </div>
+    <div class="view5">
+     <div class="grid">
+        <div class="cs-style-3">
+          <figure>
+            <div>
+            <img src="img/index/s-ren03.jpg" class="img">
+              <span class="place_name">傅琴</span>
+</div> 
+              <figcaption>
+                 <span class="big">阿德莱德版主</span>
+                    <span class="small">现居地：澳大利亚 阿德莱德  居住时长：10年</span>
+<span class="small">我一名办公室文员，但是我热爱徒步旅行，热爱大自然，喜欢结交朋友，美丽的阿德莱德欢迎你的到来。</span>
+                    <div class="lable">
+                    <span class="lable_shoot">徒步</span>&nbsp;&nbsp;
+                    <span class="lable_travel">跳舞</span>&nbsp;&nbsp;
+                    <span class="lable_execerise">网游</span>
+                    </div>
+              </figcaption>
+          </figure>
+        </div>
+        </div>
+    </div>
+ </div>
+ <div class="model_1">
+    <div class="view1">
+    <img src="img/index/s-ren04.jpg" class="img_large">
+    <span class="place_name3">巴黎</span>
+    </div>
+    <div class="view2">
+    <div class="grid">
+        <div class="cs-style-3">
+          <figure>
+            <div>
+             <img src="img/index/s-ren05.jpg" class="img">
+             <span class="place_name">乐乐</span>
+            </div> 
+              <figcaption>
+                 <span class="big">名古屋版主</span>
+                    <span class="small">现居地：名古屋   家乡：湖南 居住时长：5年</span>
+<span class="small">一直带着宝宝在这里生活，深感日本是个很安全和便利的地方，有很多地方可以放心的让宝宝玩耍，食物也非常美味，还有地方可以托管宝宝，让你真正享受一个轻松的旅游。
+</span>
+                    <div class="lable">
+                    <span class="lable_shoot">陶艺</span>&nbsp;&nbsp;
+                    <span class="lable_travel">烹饪</span>&nbsp;&nbsp;
+                    <span class="lable_execerise">美容</span>&nbsp;&nbsp;
+                    </div>
+              </figcaption>
+          </figure>
+        </div>
+        </div>
+</div>
+</div>
+ <div class="model_1">
+ <div class="view3">
+    <div class="grid">
+        <div class="cs-style-3">
+          <figure>
+            <div>
+            <img src="img/index/s-ren06.jpg" class="img">
+              <span class="place_name1">郭勇军</span>
+            </div> 
+              <figcaption>
+                 <span class="big">柏林版主</span>
+                    <span class="small">现居地：德国 柏林     居住时长：14年</span>
+<span class="small">我在柏林生活14年，精通德语，自有9座奔驰车，是非常专业的地接和导游，可以带你和亲朋友好友深度游遍这座毫不逊色巴黎的艺术之都。
+</span>
+                    <div class="lable">
+                    <span class="lable_shoot">爬山</span>&nbsp;&nbsp;
+                    <span class="lable_travel">游泳</span>&nbsp;&nbsp;
+                    <span class="lable_execerise">骑车</span>&nbsp;&nbsp;
+                    </div>
+              </figcaption>
+          </figure>
+        </div>
+        </div>
+    </div>
+    <div class="view4">
+         <img src="img/index/s-ren07.jpg" class="img">
+        <span class="place_name4">黄金海岸</span>
+    </div>
+       
+    <div class="view5">
+        <div class="grid">
+        <div class="cs-style-3">
+          <figure>
+            <div>
+              <img src="img/japan/ren08.png" class="img">
+              <span class="place_name">翔云</span>
+            </div> 
+              <figcaption>
+                 <span class="big">北海道版主</span>
+                    <span class="small">现居地：北海道   家乡：北京  居住时长1年
+
+</span>
+<span class="small">我是爱滑雪的疯子，中国的滑雪冠军，熟悉niseko，留守都的每一条雪道，来滑雪找我肯定是对的。
+。
+</span>
+                    <div class="lable">
+                    <span class="lable_shoot">滑雪</span>&nbsp;&nbsp;
+                    <span class="lable_travel">足球</span>
+                    </div>
+              </figcaption>
+          </figure>
+        </div>
+        </div>
+       </div> 
+</div>
+      
+        <div class="footer">
+            <table>
+                <tr>
+                    <td width="20%">
+                    <span class="word3">联系与合作</span>
+                        
+                    </td>
+                    <td width="20%"><span class="word3">用户反馈</span>
+                        
+                    </td>
+                    <td width="20%"> 
+                        <span class="word3">逸途使用说明</span>
+                    </td>
+                    <td width="20%"> 
+                        <span class="word3">关于我们</span>
+                    </td>
+                   </td>
+                   <td width="20%">
+                   <img src="img/index/code.jpg" style="width:50%; height:auto">
+                   </td>
+            </tr>
+        </table>
+    </div>
+<script src="js/modernizr.custom.js"></script>   
+</body>
+</html>
